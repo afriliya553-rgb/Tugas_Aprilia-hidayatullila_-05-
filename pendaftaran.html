@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+
+    <h3>Form Pendaftaran</h3>
+
+    <form>
+        <fieldset>
+            <legend>Pendaftaran Siswa</legend>
+
+            Nama Lengkap:
+            <input type="text" name="nama"
+            placeholder="Masukkan nama lengkap">
+            <br><br>
+
+            NIS:
+            <input type="number" name="nis"
+            placeholder="Masukkan NIS">
+            <br><br>
+
+            Jenis Kelamin:
+            <input type="radio" name="jk" value="Laki-laki">
+            Laki-laki
+
+            <input type="radio" name="jk" value="Perempuan">
+            Perempuan
+            <br><br>
+
+            Tanggal Lahir:
+            <input type="date" name="tanggal">
+            <br><br>
+
+            Jurusan:
+            <select name="jurusan">
+                <option value="">Pilih Jurusan</option>
+                <option>RPL</option>
+                <option>TKJ</option>
+                <option>DKV</option>
+                <option>AKL</option>
+            </select>
+            <br><br>
+
+            Alamat:
+            <br>
+            <textarea name="alamat" rows="4" cols="30"
+            placeholder="Masukkan alamat lengkap"></textarea>
+            <br><br>
+
+            Foto:
+            <input type="file" name="foto" accept="image/*">
+            <br><br>
+
+            <input type="checkbox" name="setuju">
+            Saya menyetujui data yang saya berikan
+            <br><br>
+
+            <button type="submit">Daftar</button>
+            <button type="reset">Reset</button>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
